@@ -1,0 +1,24 @@
+this is some testing functionality
+
+{%- assign _section  = section.settings -%}
+
+{{ _section.text }}
+
+{% schema %}
+{
+  "name": "SAMPLE TITLE",
+  "class": "SAMPLE-CLASS",
+  "settings": [
+    {
+      "type": "text",
+      "id": "text",
+      "label": "text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "SAMPLE TITLE"
+    }
+  ]
+}
+{% endschema %}
